@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddAgentActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etEnv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="env"
+        android:text="prod"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:text="Agent Name"/>
+
+    <EditText
+        android:id="@+id/etPlatform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Platform"
+        android:text="android"/>
+
+    <EditText
+        android:id="@+id/etStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status"
+        android:text="ready"/>
+
+    <EditText
+        android:id="@+id/etToken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Token"
+        android:text="61a720a25a8ee6eeb5d4d2174ace0756cf9b1c117288f70eae2247735b1042d3"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+</LinearLayout>
