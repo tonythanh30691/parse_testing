@@ -12,6 +12,7 @@
         android:theme="@style/Theme.VDOTestParse">
         <activity android:name=".DeleteAgentActivity"></activity>
         <activity android:name=".AddAgentActivity" />
+        <activity android:name=".UploadFileActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

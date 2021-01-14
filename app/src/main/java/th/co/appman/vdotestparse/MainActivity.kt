@@ -22,5 +22,11 @@ class MainActivity : AppCompatActivity() {
                 startActivity(this)
             }
         }
+
+        uploadFile.setOnClickListener {
+            Intent(this, UploadFileActivity::class.java).apply {
+                startActivity(this)
+            }
+        }
     }
 }
