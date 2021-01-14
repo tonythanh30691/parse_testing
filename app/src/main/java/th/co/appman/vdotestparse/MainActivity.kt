@@ -22,5 +22,11 @@ class MainActivity : AppCompatActivity() {
                 startActivity(this)
             }
         }
+
+        createRoom.setOnClickListener {
+            Intent(this, CreateRoomActivity::class.java).apply {
+                startActivity(this)
+            }
+        }
     }
 }
