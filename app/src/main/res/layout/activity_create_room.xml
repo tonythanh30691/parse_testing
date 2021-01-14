@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateRoomActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Server Peer"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etRoomId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room ID"
+        android:text="3B04B41B"/>
+
+    <EditText
+        android:id="@+id/etAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Action"
+        android:text="none"/>
+
+    <EditText
+        android:id="@+id/etCameraEnable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Camera Enable"
+        android:text="true"/>
+
+    <EditText
+        android:id="@+id/etMicEnable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mic Enable"
+        android:text="true"/>
+
+
+    <EditText
+        android:id="@+id/etStreamID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stream ID"
+        android:text="3B04B41B-9BDD-4D92-B173-649EFCA50DF1"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Claim Info"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Place"
+        android:text="Bangkok, Thailand"/>
+
+    <EditText
+        android:id="@+id/etShort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Infor"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipisc..."/>
+
+    <EditText
+        android:id="@+id/etClientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Client Name"
+        android:text="Tony"/>
+
+    <EditText
+        android:id="@+id/etState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="State"
+        android:text="accidentInfo"/>
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Room"/>
+
+</LinearLayout>

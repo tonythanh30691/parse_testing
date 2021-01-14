@@ -14,7 +14,7 @@ class DeleteAgentActivity : AppCompatActivity() {
         setContentView(R.layout.activity_delete_agent)
 
         btnDelete.setOnClickListener {
-            val query = ParseQuery.getQuery<ParseObject>("agents")
+            val query = ParseQuery.getQuery<ParseObject>("agent")
             query.whereEqualTo("name", etName.text.toString())
             query.findInBackground { scoreList, e ->
                 if (e == null) {

@@ -20,6 +20,12 @@
         android:text="Remove Agent"/>
 
     <Button
+        android:id="@+id/createRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Room"/>
+
+    <Button
         android:id="@+id/uploadFile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

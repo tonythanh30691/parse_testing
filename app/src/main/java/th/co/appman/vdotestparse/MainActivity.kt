@@ -23,6 +23,12 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        createRoom.setOnClickListener {
+            Intent(this, CreateRoomActivity::class.java).apply {
+                startActivity(this)
+            }
+        }
+
         uploadFile.setOnClickListener {
             Intent(this, UploadFileActivity::class.java).apply {
                 startActivity(this)
